@@ -62,8 +62,6 @@ Final sürümünde opsiyonel:
 - daha zengin dashboard (çoklu senaryo karşılaştırma)
 
 ## 6) GitHub linki
-GitHub deposu vize tesliminde boş/iskelet olarak açılacak ve finalde tamamlanacaktır.
-
 - Repo linki: https://github.com/bariscevk1/akilli-asansor-simpy-streamlit
 
 ### Repo QR Kodu
