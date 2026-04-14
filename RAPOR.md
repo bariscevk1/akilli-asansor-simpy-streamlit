@@ -69,11 +69,12 @@ GitHub deposu vize tesliminde boş/iskelet olarak açılacak ve finalde tamamlan
 ### Repo QR Kodu
 ![GitHub Repo QR](assets/github_repo_qr.png)
 
-## Ek: Çalıştırma (vize sürümü)
-Projede `requirements.txt` bulunmaktadır. Kurulum ve çalıştırma:
-
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
-
+## 7) Kaynaklar
+- SimPy Documentation: https://simpy.readthedocs.io/
+- Streamlit Documentation: https://docs.streamlit.io/
+- Plotly Python Documentation: https://plotly.com/python/
+- pandas Documentation: https://pandas.pydata.org/docs/
+- NumPy Documentation: https://numpy.org/doc/
+- python-docx Documentation: https://python-docx.readthedocs.io/
+- qrcode (Python) Package: https://pypi.org/project/qrcode/
+- GitHub CLI Documentation: https://cli.github.com/manual/
