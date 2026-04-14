@@ -4,3 +4,4 @@ pandas
 numpy
 plotly
 qrcode[pil]
+python-docx
