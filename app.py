@@ -27,21 +27,12 @@ with st.sidebar:
     mean_interarrival_seconds = st.slider("Ortalama geliş aralığı (sn)", min_value=1.0, max_value=60.0, value=8.0, step=1.0)
     traffic_mode = st.selectbox("Trafik modu", ["mixed", "up_peak", "down_peak"], index=0)
 
-    with st.expander("Gelişmiş (finalde artırırız)", expanded=False):
-        st.caption("Vize sürümünde gizli. Finalde kontrol stratejileriyle birlikte detaylandıracağız.")
-        seconds_per_floor = st.slider("Kat başı süre (sn)", min_value=1.0, max_value=10.0, value=3.0, step=0.5)
-        door_seconds = st.slider("Kapı döngüsü (sn)", min_value=2.0, max_value=20.0, value=6.0, step=1.0)
-        board_s = st.slider("Biniş kişi başı (sn)", min_value=0.0, max_value=5.0, value=1.0, step=0.5)
-        alight_s = st.slider("İniş kişi başı (sn)", min_value=0.0, max_value=5.0, value=1.0, step=0.5)
-        snapshot_every_seconds = st.slider("Örnekleme aralığı (sn)", min_value=1, max_value=60, value=10, step=1)
-
-    # Defaults when advanced expander not touched (Streamlit still defines vars, but keep explicit)
-    if "seconds_per_floor" not in locals():
-        seconds_per_floor = 3.0
-        door_seconds = 6.0
-        board_s = 1.0
-        alight_s = 1.0
-        snapshot_every_seconds = 10
+    # Vize sürümünde sabit (UI'dan kaldırıldı). Finalde tekrar açılabilir.
+    seconds_per_floor = 3.0
+    door_seconds = 6.0
+    board_s = 1.0
+    alight_s = 1.0
+    snapshot_every_seconds = 10
 
     run = st.button("Simülasyonu çalıştır", type="primary")
 
