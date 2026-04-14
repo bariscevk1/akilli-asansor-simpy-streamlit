@@ -1,7 +1,7 @@
 # Akıllı Asansör Trafiği Simülasyonu — Vize Raporu
 
 Ad Soyad: Barış Çevik  
-Öğrenci No: 22439970008  
+Öğrenci No: 22430070008  
 Ders: Benzetim Programları
 
 ## 1) Projenin çözdüğü problem
