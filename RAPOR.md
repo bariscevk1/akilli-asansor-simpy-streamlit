@@ -60,7 +60,10 @@ Final sürümünde opsiyonel:
 ## 6) GitHub linki
 GitHub deposu vize tesliminde boş/iskelet olarak açılacak ve finalde tamamlanacaktır.
 
-- Repo linki: **(eklencek)**
+- Repo linki: **https://github.com/bariscevk1/akilli-asansor-simpy-streamlit**
+
+### Repo QR Kodu
+![GitHub Repo QR](assets/github_repo_qr.png)
 
 ## Ek: Çalıştırma (vize sürümü)
 Projede `requirements.txt` bulunmaktadır. Kurulum ve çalıştırma:
